@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">TicketLawyers</string>
+    <string name="title_activity_main">Dashboard</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Hire us Now</string>
+    <string name="menu_slideshow">My Cases</string>
+    <string name="menu_tools">Locations</string>
+    <string name="menu_share">Aboutus</string>
+    <string name="menu_send">Contactus</string>
+    <string-array name="nav_item_activity_titles">
+        <item>Home</item>
+        <item>Hire us Now</item>
+        <item>My Cases</item>
+        <item>Locations</item>
+        <item>Aboutus</item>
+        <item>Contactus</item>
+    </string-array>
+    <string name="abt">"At Stabile Law Firm, we are a full-service law firm with concentration in traffic law and DWI matters in New Jersey. We pride ourselves on our ability to solve traffic violations for our clients. Our team of lawyers finds innovative solutions to our clients' needs. We truly are vigorous in our representation. We never back away from a fight, but we choose our battles carefully to ensure the best outcome for our clients. We are passionately committed to our clients' needs."</string>
+    <string name="history">In 1993 our Firm was established in New Jersey in an effort to provide the absolute best defense lawyers for our clients. Since then, we have expanded to include more attorneys, numerous colleagues, a list of experts and support staff. Since our inception, our Firm has handled in excess of 250,000 traffic violations throughout the State of New Jersey and New York. We continue to provide aggressive zealous representation for our clients in an effort to dismiss all or some of the charges, so that our clients can be assured the protection of their driving privileges.</string>
+    <string name="history1">"The key to our success is RESULTS. When a client retains the services of our FIRM, he/she does not receive the benefit, knowledge of only one attorney. In fact, when a client retains the services of the Stabile Law Firm, LLC, he/she receives the benefit of 4 (four) attorneys' knowledge with a combined experience of over 100 years. Furthermore, our Firm primarily concentrates in NJ traffic tickets violations and DWI. The reason for this, is to assure our clients that we are serious about their matter. At our Firm, traffic and criminal law is primarily what we do. When dealing with a motor vehicle related offense, the last thing you need is a Real Estate lawyer trying to preserve your freedom or save your driving privilege while running between closings all day."</string>
+    <string name="steve1">"He then attended 1 year of law school in the State of Michigan. After his 1st year of law school he transfered to Widener University School of Law in Harrisburg, Pennsylvania.
+   In 1992, he graduated Widener University School of Law with a Juris Doctor degree. He was a member of the first graduating class of the Harrisburg Campus.\n During law school he was an active member in the law fraternity Phi Alpha Delta. Admitted to the New Jersey Bar in 1993, he began his law practice concentrating in Municipal Court and Criminal Law matters.During his career he has represented thousands of clients in municipal courts throughout the State of New Jersey. Since 1999, he has appeared in both traffic and criminal courts throughout the five Boroughs of New York City as well as the State of New York. He is currently admitted to practice law in the State of New Jersey, New York, Pennsylvania and the District of Columbia."</string>
+    <string name="steve">"Steve Stabile is the owner of the Stabile Law Firm, LLC. Born in Brooklyn, New York he attended Brooklyn College where he graduated with a Bachelor's Degree in History in 1989. "</string>
+    <string name="spinner_title">Select Category</string>
+    <string name="nameerror">Enter Firstname</string>
+    <string name="nameerror1">Enter Lastname</string>
+    <string name="descc">Enter Description</string>
+    <string name="emailerror">Enter a valid email</string>
+    <string name="mobileerror">Enter a valid mobile no</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

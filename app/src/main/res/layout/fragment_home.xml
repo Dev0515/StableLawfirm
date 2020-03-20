@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="my.TicketLawyers.stablelawfirm.Activity.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+
+            android:background="@color/gray"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="20dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/gray">
+         <ImageView
+             android:layout_width="200dp"
+             android:layout_height="100dp"
+             android:layout_gravity="center"
+             android:src="@drawable/logo"/>
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="Don't Pay That Ticket!"
+              android:textColor="#FFF"
+              android:textSize="10pt"
+              android:gravity="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tailgating"
+                android:textColor="#FFF"
+                android:textSize="6pt"
+                android:gravity="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Reckless Driving"
+                android:textColor="#FFF"
+                android:textSize="6pt"
+                android:gravity="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Careless Driving"
+                android:textColor="#FFF"
+                android:textSize="6pt"
+                android:gravity="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Speeding Tickets"
+                android:textColor="#FFF"
+                android:textSize="6pt"
+                android:gravity="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Improper u-turn"
+                android:textColor="#FFF"
+                android:textSize="6pt"
+                android:gravity="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Driving while suspended"
+                android:textColor="#FFF"
+                android:textSize="6pt"
+                android:gravity="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Improper crossing of bridge"
+                android:textColor="#FFF"
+                android:textSize="6pt"
+                android:gravity="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Improper passing of school bus"
+                android:textColor="#FFF"
+                android:textSize="6pt"
+                android:gravity="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Leaving the scene of accident"
+                android:textColor="#FFF"
+                android:textSize="6pt"
+                android:gravity="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Failure to stop the traffic light"
+                android:textColor="#FFF"
+                android:textSize="6pt"
+                android:gravity="center"/>
+
+          <Button
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:gravity="center"
+              android:textColor="#FFF"
+              android:layout_marginLeft="20dp"
+              android:layout_marginRight="20dp"
+              android:layout_marginTop="5dp"
+              android:layout_marginBottom="5dp"
+              android:id="@+id/contactus"
+              android:background="@drawable/hireusbutton"
+              android:text="Contact us Now"/>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            >
+        <android.support.v7.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="20dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+         <Button
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:background="@color/gray"
+             android:textSize="7pt"
+             android:padding="30dp"
+             android:id="@+id/instaa"
+             android:drawableTint="@color/buttoncolor"
+             android:drawableTop="@drawable/ic_call_black_24dp"
+             android:textColor="#FFF"
+             android:text="Call us Today"/>
+        </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:cardCornerRadius="10dp"
+            android:layout_marginLeft="5dp"
+            app:cardElevation="20dp">
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center"
+             android:orientation="vertical">
+
+         <Button
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:background="@color/gray"
+             android:padding="30dp"
+             android:textSize="7pt"
+             android:id="@+id/location"
+             android:drawableTint="@color/buttoncolor"
+             android:drawableTop="@drawable/ic_place_black_24dp"
+             android:textColor="#FFF"
+             android:text="locations"/>
+         </LinearLayout>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+
+            app:cardElevation="20dp">
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center"
+             android:orientation="vertical">
+
+          <Button
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@color/gray"
+              android:padding="30dp"
+              android:id="@+id/mycases"
+              android:textSize="7pt"
+              android:drawableTint="@color/buttoncolor"
+              android:drawableTop="@drawable/ic_search_black_24dp"
+              android:textColor="#FFF"
+              android:text="Check status on my case"/>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>
